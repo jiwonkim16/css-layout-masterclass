@@ -1,11 +1,16 @@
-body {
+.father {
   display: flex;
+  height: 100vh;
   gap: 10px;
-  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .box {
   width: 200px;
   height: 200px;
   background-color: tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
