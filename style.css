@@ -2,14 +2,16 @@
   display: flex;
   height: 100vh;
   gap: 10px;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
 }
 
 .box {
   width: 200px;
   height: 200px;
   background-color: tomato;
+  font-size: 36px;
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
